@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp
+".\objects\25lc256.o"
+".\objects\at_command.o"
+".\objects\ds1307.o"
+".\objects\function.o"
+".\objects\main.o"
+".\objects\u_print.o"
+".\objects\misc.o"
+".\objects\stm32f4xx_gpio.o"
+".\objects\stm32f4xx_i2c.o"
+".\objects\stm32f4xx_spi.o"
+".\objects\stm32f4xx_tim.o"
+".\objects\stm32f4xx_usart.o"
+".\objects\stm32f4xx_rcc.o"
+".\objects\system_stm32f4xx.o"
+".\objects\startup_stm32f4xx.o"
+--strict --scatter ".\Objects\Final_branch1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Final_branch1.map" -o .\Objects\Final_branch1.axf

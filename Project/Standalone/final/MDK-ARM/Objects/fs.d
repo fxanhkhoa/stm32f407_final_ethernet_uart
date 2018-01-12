@@ -1,0 +1,13 @@
+.\objects\fs.o: ..\src\fs.c
+.\objects\fs.o: ..\..\..\..\Utilities\lwip_v1.3.2\src\include\lwip/opt.h
+.\objects\fs.o: ..\inc\lwipopts.h
+.\objects\fs.o: ..\..\..\..\Utilities\lwip_v1.3.2\src\include\lwip/debug.h
+.\objects\fs.o: ..\..\..\..\Utilities\lwip_v1.3.2\src\include\lwip/arch.h
+.\objects\fs.o: ..\..\..\..\Utilities\lwip_v1.3.2\port\STM32F4x7\arch/cc.h
+.\objects\fs.o: ..\..\..\..\Utilities\lwip_v1.3.2\port\STM32F4x7\arch/cpu.h
+.\objects\fs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\fs.o: ..\..\..\..\Utilities\lwip_v1.3.2\src\include\lwip/def.h
+.\objects\fs.o: ..\inc\fs.h
+.\objects\fs.o: ..\inc\fsdata.h
+.\objects\fs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\fs.o: ..\src\fsdata.c
